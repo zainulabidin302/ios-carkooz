@@ -11,14 +11,12 @@ import UIKit
 
 class LeftViewController: UIViewController {
     var tableView: UITableView!
-    var items = ["1", "2", "3"]
+    var items = ["Profile", "Servies", "Chat", "Request Car Inspection", "My Cars for sale", "My Services", "My Products", "Change Password", "Logout"]
     var didselected: ((IndexPath) -> ())?
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = .brown
         tableView = UITableView()
-        tableView.backgroundColor = .purple
         if #available(iOS 11, *) {
             tableView.contentInsetAdjustmentBehavior = .never
         }
@@ -30,7 +28,8 @@ class LeftViewController: UIViewController {
             make.edges.equalTo(self.view)
         }
         let headerView = UIView(frame: .zero)
-        headerView.backgroundColor = .blue
+        
+        headerView.backgroundColor = UIColor(red: ((1/255) * 244), green: ((1/255) * 165), blue: ((1/255) * 76), alpha: 1)
         tableView.tableHeaderView = headerView
         headerView.snp.makeConstraints { (make) in
             make.top.equalTo(tableView.snp.top)
