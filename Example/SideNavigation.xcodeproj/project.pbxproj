@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		183E06752191E255001B2239 /* ServiceViewDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183E06742191E255001B2239 /* ServiceViewDetailsViewController.swift */; };
 		1847CEDD218B58F2002E1982 /* Pods_SideNavigation_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1847CEDC218B58F2002E1982 /* Pods_SideNavigation_Tests.framework */; };
 		1847CEDF218B58F2002E1982 /* SideNavigation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1847CEDE218B58F2002E1982 /* SideNavigation.framework */; };
 		1847CEE1218B58F2002E1982 /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1847CEE0218B58F2002E1982 /* SnapKit.framework */; };
@@ -38,6 +39,8 @@
 		1847CF20218B5AE4002E1982 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1847CF03218B5AE3002E1982 /* Main.storyboard */; };
 		1847CF21218B5AE4002E1982 /* DesignableUITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1847CF05218B5AE3002E1982 /* DesignableUITextField.swift */; };
 		1847CF22218B5AE4002E1982 /* MyServicesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1847CF06218B5AE3002E1982 /* MyServicesTableViewController.swift */; };
+		1847CF24218D7EDE002E1982 /* MyProductTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1847CF23218D7EDE002E1982 /* MyProductTableViewCell.swift */; };
+		1847CF27218EE46A002E1982 /* CarViewDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1847CF26218EE46A002E1982 /* CarViewDetailsViewController.swift */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
@@ -50,6 +53,7 @@
 
 /* Begin PBXFileReference section */
 		081D056CE4F8BDE1A4D1FE16 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		183E06742191E255001B2239 /* ServiceViewDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceViewDetailsViewController.swift; sourceTree = "<group>"; };
 		1847CEDC218B58F2002E1982 /* Pods_SideNavigation_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_SideNavigation_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1847CEDE218B58F2002E1982 /* SideNavigation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SideNavigation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1847CEE0218B58F2002E1982 /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -81,6 +85,8 @@
 		1847CF04218B5AE3002E1982 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
 		1847CF05218B5AE3002E1982 /* DesignableUITextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableUITextField.swift; sourceTree = "<group>"; };
 		1847CF06218B5AE3002E1982 /* MyServicesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyServicesTableViewController.swift; sourceTree = "<group>"; };
+		1847CF23218D7EDE002E1982 /* MyProductTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProductTableViewCell.swift; sourceTree = "<group>"; };
+		1847CF26218EE46A002E1982 /* CarViewDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarViewDetailsViewController.swift; sourceTree = "<group>"; };
 		396EF163472C49DB3C652B6E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		560C7E285395390DE8BBB80F /* Pods-SideNavigation_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SideNavigation_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SideNavigation_Example/Pods-SideNavigation_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* SideNavigation_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SideNavigation_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -133,6 +139,7 @@
 			children = (
 				1847CEE8218B5AE2002E1982 /* MyServiceTableViewCell.swift */,
 				1847CEE9218B5AE2002E1982 /* MyCarsTableViewCell.swift */,
+				1847CF23218D7EDE002E1982 /* MyProductTableViewCell.swift */,
 			);
 			path = TableViewCells;
 			sourceTree = "<group>";
@@ -170,6 +177,15 @@
 			path = Base.lproj;
 			sourceTree = "<group>";
 		};
+		1847CF25218EE443002E1982 /* ViewDetails */ = {
+			isa = PBXGroup;
+			children = (
+				1847CF26218EE46A002E1982 /* CarViewDetailsViewController.swift */,
+				183E06742191E255001B2239 /* ServiceViewDetailsViewController.swift */,
+			);
+			name = ViewDetails;
+			sourceTree = "<group>";
+		};
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
@@ -201,6 +217,7 @@
 				1847CEE6218B5AE2002E1982 /* MyCarsTableViewController.swift */,
 				1847CEFC218B5AE2002E1982 /* MyProductsTableTableViewController.swift */,
 				1847CF06218B5AE3002E1982 /* MyServicesTableViewController.swift */,
+				1847CF25218EE443002E1982 /* ViewDetails */,
 				1847CEE7218B5AE2002E1982 /* TableViewCells */,
 				1847CEEA218B5AE2002E1982 /* VCs */,
 				AACEFFC91F31B8B1000DB41E /* LeftViewController.swift */,
@@ -387,6 +404,7 @@
 				1847CF10218B5AE4002E1982 /* AddCarDetailsViewController.swift in Sources */,
 				1847CF1E218B5AE4002E1982 /* FloatLabelTextView.swift in Sources */,
 				1847CF08218B5AE4002E1982 /* MyServiceTableViewCell.swift in Sources */,
+				1847CF27218EE46A002E1982 /* CarViewDetailsViewController.swift in Sources */,
 				1847CF0E218B5AE4002E1982 /* ServicesListingViewController.swift in Sources */,
 				1847CF1A218B5AE4002E1982 /* RequestCarInspectionViewController.swift in Sources */,
 				1847CF16218B5AE4002E1982 /* CommonListingAndSearchingViewController.swift in Sources */,
@@ -395,9 +413,11 @@
 				1847CF13218B5AE4002E1982 /* ServicesViewController.swift in Sources */,
 				1847CF21218B5AE4002E1982 /* DesignableUITextField.swift in Sources */,
 				AACEFFCE1F31B954000DB41E /* RightViewController.swift in Sources */,
+				1847CF24218D7EDE002E1982 /* MyProductTableViewCell.swift in Sources */,
 				1847CF18218B5AE4002E1982 /* LoginViewController.swift in Sources */,
 				1847CF07218B5AE4002E1982 /* MyCarsTableViewController.swift in Sources */,
 				1847CF09218B5AE4002E1982 /* MyCarsTableViewCell.swift in Sources */,
+				183E06752191E255001B2239 /* ServiceViewDetailsViewController.swift in Sources */,
 				1847CF1B218B5AE4002E1982 /* MyProductsTableTableViewController.swift in Sources */,
 				1847CF15218B5AE4002E1982 /* MyCarsForSaleViewController.swift in Sources */,
 				1847CF12218B5AE4002E1982 /* MyCarAdsViewController.swift in Sources */,
@@ -564,7 +584,7 @@
 				INFOPLIST_FILE = SideNavigation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.SideNavigation-Example";
+				PRODUCT_BUNDLE_IDENTIFIER = com.getneural.carkooz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 			};
@@ -579,7 +599,7 @@
 				INFOPLIST_FILE = SideNavigation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.SideNavigation-Example";
+				PRODUCT_BUNDLE_IDENTIFIER = com.getneural.carkooz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 			};
