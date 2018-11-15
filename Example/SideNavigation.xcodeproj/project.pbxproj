@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		183E06752191E255001B2239 /* ServiceViewDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183E06742191E255001B2239 /* ServiceViewDetailsViewController.swift */; };
+		183E06772191F262001B2239 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183E06762191F262001B2239 /* ChatViewController.swift */; };
+		183E06792191F735001B2239 /* ChatViewTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183E06782191F735001B2239 /* ChatViewTableViewController.swift */; };
+		183E067B2192253D001B2239 /* ChatDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183E067A2192253D001B2239 /* ChatDetailViewController.swift */; };
 		1847CEDD218B58F2002E1982 /* Pods_SideNavigation_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1847CEDC218B58F2002E1982 /* Pods_SideNavigation_Tests.framework */; };
 		1847CEDF218B58F2002E1982 /* SideNavigation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1847CEDE218B58F2002E1982 /* SideNavigation.framework */; };
 		1847CEE1218B58F2002E1982 /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1847CEE0218B58F2002E1982 /* SnapKit.framework */; };
@@ -41,6 +44,7 @@
 		1847CF22218B5AE4002E1982 /* MyServicesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1847CF06218B5AE3002E1982 /* MyServicesTableViewController.swift */; };
 		1847CF24218D7EDE002E1982 /* MyProductTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1847CF23218D7EDE002E1982 /* MyProductTableViewCell.swift */; };
 		1847CF27218EE46A002E1982 /* CarViewDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1847CF26218EE46A002E1982 /* CarViewDetailsViewController.swift */; };
+		18D0A19D2194740800324FAB /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D0A19C2194740800324FAB /* API.swift */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
@@ -54,6 +58,9 @@
 /* Begin PBXFileReference section */
 		081D056CE4F8BDE1A4D1FE16 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		183E06742191E255001B2239 /* ServiceViewDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceViewDetailsViewController.swift; sourceTree = "<group>"; };
+		183E06762191F262001B2239 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		183E06782191F735001B2239 /* ChatViewTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewTableViewController.swift; sourceTree = "<group>"; };
+		183E067A2192253D001B2239 /* ChatDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatDetailViewController.swift; sourceTree = "<group>"; };
 		1847CEDC218B58F2002E1982 /* Pods_SideNavigation_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_SideNavigation_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1847CEDE218B58F2002E1982 /* SideNavigation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SideNavigation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1847CEE0218B58F2002E1982 /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -87,6 +94,7 @@
 		1847CF06218B5AE3002E1982 /* MyServicesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyServicesTableViewController.swift; sourceTree = "<group>"; };
 		1847CF23218D7EDE002E1982 /* MyProductTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProductTableViewCell.swift; sourceTree = "<group>"; };
 		1847CF26218EE46A002E1982 /* CarViewDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarViewDetailsViewController.swift; sourceTree = "<group>"; };
+		18D0A19C2194740800324FAB /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		396EF163472C49DB3C652B6E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		560C7E285395390DE8BBB80F /* Pods-SideNavigation_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SideNavigation_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SideNavigation_Example/Pods-SideNavigation_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* SideNavigation_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SideNavigation_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -164,6 +172,9 @@
 				1847CEF9218B5AE2002E1982 /* LoginViewController.swift */,
 				1847CEFA218B5AE2002E1982 /* ProfileViewController.swift */,
 				1847CEFB218B5AE2002E1982 /* RequestCarInspectionViewController.swift */,
+				183E06762191F262001B2239 /* ChatViewController.swift */,
+				183E06782191F735001B2239 /* ChatViewTableViewController.swift */,
+				183E067A2192253D001B2239 /* ChatDetailViewController.swift */,
 			);
 			path = VCs;
 			sourceTree = "<group>";
@@ -228,6 +239,7 @@
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
+				18D0A19C2194740800324FAB /* API.swift */,
 			);
 			name = "Example for SideNavigation";
 			path = SideNavigation;
@@ -379,11 +391,15 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-SideNavigation_Example/Pods-SideNavigation_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/PusherChatkit/PusherChatkit.framework",
+				"${BUILT_PRODUCTS_DIR}/PusherPlatform/PusherPlatform.framework",
 				"${BUILT_PRODUCTS_DIR}/SideNavigation/SideNavigation.framework",
 				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PusherChatkit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PusherPlatform.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SideNavigation.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
 			);
@@ -399,6 +415,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				183E06792191F735001B2239 /* ChatViewTableViewController.swift in Sources */,
+				183E067B2192253D001B2239 /* ChatDetailViewController.swift in Sources */,
 				1847CF0D218B5AE4002E1982 /* EditProfileViewController.swift in Sources */,
 				AACEFFCC1F31B8B1000DB41E /* ViewController.swift in Sources */,
 				1847CF10218B5AE4002E1982 /* AddCarDetailsViewController.swift in Sources */,
@@ -412,6 +430,7 @@
 				1847CF0A218B5AE4002E1982 /* SignupViewController.swift in Sources */,
 				1847CF13218B5AE4002E1982 /* ServicesViewController.swift in Sources */,
 				1847CF21218B5AE4002E1982 /* DesignableUITextField.swift in Sources */,
+				183E06772191F262001B2239 /* ChatViewController.swift in Sources */,
 				AACEFFCE1F31B954000DB41E /* RightViewController.swift in Sources */,
 				1847CF24218D7EDE002E1982 /* MyProductTableViewCell.swift in Sources */,
 				1847CF18218B5AE4002E1982 /* LoginViewController.swift in Sources */,
@@ -430,6 +449,7 @@
 				1847CF0F218B5AE4002E1982 /* CarGarageViewController.swift in Sources */,
 				1847CF17218B5AE4002E1982 /* MyServicesViewController.swift in Sources */,
 				1847CF22218B5AE4002E1982 /* MyServicesTableViewController.swift in Sources */,
+				18D0A19D2194740800324FAB /* API.swift in Sources */,
 				1847CF14218B5AE4002E1982 /* AddProductDetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -517,7 +537,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -565,7 +585,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";

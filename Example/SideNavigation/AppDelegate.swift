@@ -15,8 +15,19 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     var window: UIWindow?
     static var isMenuHidden = true
-    static var location: CLLocationCoordinate2D? = nil
+    static var location: CLLocationCoordinate2D?
+    static var loc: (lat: String, long: String) {
+        get {
+            return (
+                String(Double((AppDelegate.location?.latitude)!))
+                ,String(Double((AppDelegate.location?.longitude)!))
+            )
+        }
+    }
     static var baseURL = "https://carkooz.com/database/"
+    static var imagesBaseUrl = "https://carkooz.com/images/"
+    static var chatServerUrl = "http://localhost:3002/"
+    
     static var user: [String: Any]? = nil
 
     
